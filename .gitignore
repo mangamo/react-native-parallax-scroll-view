@@ -2,3 +2,8 @@ lib/
 node_modules/
 npm-debug.log
 
+# Optional npm cache directory
+.npm
+
+# NPM credentials
+.npmrc

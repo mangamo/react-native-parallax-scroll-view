@@ -1,33 +1,32 @@
 {
-	"name": "react-native-parallax-scroll-view",
-	"version": "0.21.3",
-	"description": "A ScrollView-like component with parallax and sticky header support",
-	"main": "src/index.js",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/jaysoo/react-native-parallax-scroll-view"
-	},
-	"files": [
-		"src",
-		"demo.ios.gif",
-		"demo.android.20160117.gif",
-		"README.md",
-		"LICENSE"
-	],
-	"keywords": [
-		"react-native",
-		"react",
-		"parallax",
-		"scrollable",
-		"scrollview",
-		"sticky",
-		"react-component",
-		"ios",
-		"android"
-	],
-	"author": "Jack Hsu",
-	"license": "ISC",
-	"dependencies": {
-		"prop-types": "^15.6.0"
-	}
+    "name": "@mangamo/parallax-scroll-view",
+    "version": "0.21.5",
+    "description": "A ScrollView-like component with parallax and sticky header support",
+    "main": "src/index.js",
+    "types": "src/index.d.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/mangamo/react-native-parallax-scroll-view.git"
+    },
+    "files": [
+        "src",
+        "demo.ios.gif",
+        "demo.android.20160117.gif",
+        "README.md",
+        "LICENSE"
+    ],
+    "keywords": [],
+    "bugs": {
+        "url": "https://github.com/mangamo/react-native-parallax-scroll-view/issues"
+    },
+    "homepage": "https://github.com/mangamo/react-native-parallax-scroll-view#readme",
+    "author": "Pat Weisensee",
+    "license": "UNLICENSED",
+    "dependencies": {
+        "deprecated-react-native-prop-types": "^2.3.0",
+        "prop-types": "^15.6.0"
+    }
 }

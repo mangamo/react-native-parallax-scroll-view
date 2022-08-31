@@ -1,8 +1,9 @@
 import * as React from 'react';
 
-declare class ParallaxScrollView extends React.Component<ParallaxScrollViewProps, {}> {
-
-}
+declare class ParallaxScrollView extends React.Component<
+    React.PropsWithChildren<ParallaxScrollViewProps>,
+    {}
+> {}
 
 export interface ParallaxScrollViewProps {
     backgroundScrollSpeed?: number;
