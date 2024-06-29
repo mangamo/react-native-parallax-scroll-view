@@ -1,6 +1,6 @@
 {
     "name": "@mangamo/parallax-scroll-view",
-    "version": "0.21.5",
+    "version": "0.22.0",
     "description": "A ScrollView-like component with parallax and sticky header support",
     "main": "src/index.js",
     "types": "src/index.d.ts",
@@ -26,7 +26,7 @@
     "author": "Pat Weisensee",
     "license": "UNLICENSED",
     "dependencies": {
-        "deprecated-react-native-prop-types": "^2.3.0",
-        "prop-types": "^15.6.0"
+        "deprecated-react-native-prop-types": "^5.0.0",
+        "prop-types": "^15.8.1"
     }
 }
